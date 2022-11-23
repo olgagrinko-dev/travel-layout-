@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Inter";
+    src: url(./fonts/Inter-Medium.ttf) format("truetype"),
+        url(./fonts/Inter-Regular.ttf) format("truetype"),
+        url(./fonts/Inter-SemiBold.ttf) format("truetype");
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+.img-logo {
+    background-image: url(/assets/logo.svg);
+    background-repeat: no-repeat;
+    width: 41px;
+    height: 41px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav p {
+    margin-right: 30px;
+}
+
+header nav div:not(:last-child) {
+    margin-right: 18px;
+}
