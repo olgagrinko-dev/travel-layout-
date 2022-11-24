@@ -53,6 +53,10 @@ header nav p:hover {
     text-decoration: underline;
 }
 
+header nav div:hover {
+    text-decoration: underline;
+}
+
 header nav div:not(:last-child) {
     margin-right: 18px;
 }
@@ -150,4 +154,104 @@ header nav div:not(:last-child) {
     background-repeat: no-repeat;
     width: 505px;
     height: 480px;
+}
+
+
+
+
+.world {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.img-world {
+    background-image: url(./assets/Thousand-02\ 1.svg);
+    background-repeat: no-repeat;
+    width: 660px;
+    height: 535px;
+}
+
+.block-world {
+    padding: 95px 0;
+}
+
+.block-world h2 {
+    font: 700 36px 'Playfair Display';
+    margin-bottom: 20px;
+}
+
+.block-world h2:hover {
+    text-decoration: underline;
+}
+
+.block-world p {
+    font: 300 17px 'Mulish';
+    color: #7D7987;
+    mix-blend-mode: normal;
+    margin-bottom: 33px;
+}
+
+.block-world p:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.destinations {
+    display: flex;   
+}
+
+.block-destinations {
+    display: flex;
+    margin-bottom: 56px;
+    /*justify-content: space-between; 
+    align-items: center;
+    margin-left: 560px;*/
+}
+
+/*.img-destinations {
+    background-image: url(./assets/View\ all.svg);
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 60px;
+}*/
+
+
+
+
+.img-catalog {
+    
+
+}
+
+.img-destinations-1 {
+    background-image: url(./assets/image\ 4.svg);
+    background-repeat: no-repeat;
+    width: 648px;
+    height: 432px;  
+}
+
+.img-destinations-2 {
+    background-image: url(./assets/Screen\ Shot\ 2020-02-14\ at\ 4.36\ 1.svg);
+    background-repeat: no-repeat;
+    width: 648px;
+    height: 432px;  
+}
+
+.img-destinations-3 {
+    background-image: url(./assets/Screen\ Shot\ 2020-02-15\ at\ 11.04\ 1.svg);
+    background-repeat: no-repeat;
+    width: 648px;
+    height: 432px;  
+}
+
+.img-destinations-4 {
+    background-image: url(./assets/Screen\ Shot\ 2020-02-14\ at\ 4.36\ 1.svg);
+    background-repeat: no-repeat;
+    width: 648px;
+    height: 432px;  
 }
