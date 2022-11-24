@@ -3,7 +3,11 @@
     src: url(./fonts/Inter-Medium.ttf) format("truetype"),
         url(./fonts/Inter-Regular.ttf) format("truetype"),
         url(./fonts/Inter-SemiBold.ttf) format("truetype");
-
+    font-family: "Mulish";
+    src: url(./fonts/Mulish-Bold.ttf) format("truetype"),
+        url(./fonts/Mulish-Light.ttf) format("truetype");
+    font-family: "Playfair Display";
+    src: url(./fonts/PlayfairDisplay-Bold.ttf) format("truetype");
 }
 
 * {
@@ -28,6 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 60px 0 115px 0;
 }
 
 header nav {
@@ -36,8 +41,113 @@ header nav {
 
 header nav p {
     margin-right: 30px;
+    font: 400 16px'Inter';
+    color: #B8BECD;
+}
+
+.active-p {
+    color: #202336;
+}
+
+header nav p:hover {
+    text-decoration: underline;
 }
 
 header nav div:not(:last-child) {
     margin-right: 18px;
+}
+
+.button-1 {
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    width: 130px;
+    text-align: center;
+    padding: 8px 0;
+    font: 500 15px 'Inter';
+    color: #FB8F1D;
+}
+
+.button-2 {
+    background: #FB8F1D;
+    border-radius: 8px;
+    width: 130px;
+    text-align: center;
+    padding: 8px 0;
+    font: 500 15px 'Inter';
+    color: #FFFFFF;
+}
+
+.travel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.active {
+    color: #202336;
+}
+
+.block-travel h1 {
+    font: 700 64px 'Playfair Display';
+    margin-bottom: 74px;
+}
+
+.block-travel h1:hover {
+    text-decoration: underline;
+}
+
+.block-travel p {
+    font: 600 22px 'Inter';
+    margin-bottom: 70px;
+}
+
+.block-travel p:hover {
+    text-decoration: underline;
+}
+
+.form-travel {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-inputs {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.group-inputs input {
+    margin-right: 30px;
+    width: 200px;
+    padding: 15px 30px 15px;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    font: 700 17px 'Mulish';
+    color: #4A4C53;
+}
+
+.group-inputs input:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background: #FB8F1D;
+    border-radius: 8px;
+    width: 180px;
+    text-align: center;
+    padding: 8px 0;
+    font: 700 17px 'Mulish';
+    color: #FFFFFF;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.img-travel {
+    background-image: url(./assets/thousand-01\ 1.svg);
+    background-repeat: no-repeat;
+    width: 505px;
+    height: 480px;
 }
