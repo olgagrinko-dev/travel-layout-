@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     font-family: "Inter";
+    font-style: normal;
 }
 
 body {
@@ -202,56 +203,120 @@ header nav div:not(:last-child) {
 
 
 .destinations {
-    display: flex;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .block-destinations {
     display: flex;
-    margin-bottom: 56px;
-    /*justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
-    margin-left: 560px;*/
+    margin-bottom: 56px;
 }
 
-/*.img-destinations {
-    background-image: url(./assets/View\ all.svg);
-    background-repeat: no-repeat;
-    width: 64px;
-    height: 60px;
-}*/
+.block-destinations h2 {
+    font: 700 36px 'Playfair Display';
+    color: #000000;
+}
 
-
-
+.block-destinations p {
+    font: 600 17px 'Inter';
+    color: #FB8F1D;
+}
 
 .img-catalog {
-    
-
+    display: flex;
+    width: 100%;
 }
 
 .img-destinations-1 {
     background-image: url(./assets/image\ 4.svg);
     background-repeat: no-repeat;
     width: 648px;
-    height: 432px;  
+    height: 432px;
 }
 
 .img-destinations-2 {
     background-image: url(./assets/Screen\ Shot\ 2020-02-14\ at\ 4.36\ 1.svg);
     background-repeat: no-repeat;
     width: 648px;
-    height: 432px;  
+    height: 432px;
 }
 
 .img-destinations-3 {
     background-image: url(./assets/Screen\ Shot\ 2020-02-15\ at\ 11.04\ 1.svg);
     background-repeat: no-repeat;
     width: 648px;
-    height: 432px;  
+    height: 432px;
 }
 
 .img-destinations-4 {
-    background-image: url(./assets/Screen\ Shot\ 2020-02-14\ at\ 4.36\ 1.svg);
+    background-image: url(./assets/Screen\ Shot\ 2020-02-15\ at\ 11.10\ 1.svg);
     background-repeat: no-repeat;
     width: 648px;
-    height: 432px;  
+    height: 432px;
+}
+
+
+
+
+
+
+.guides {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.block-guides {
+    padding: 95px 0;
+}
+
+.block-guides h2 {
+    font: 700 36px 'Playfair Display';
+    margin-bottom: 20px;
+}
+
+.block-guides h2:hover {
+    text-decoration: underline;
+}
+
+.block-guides p {
+    font: 300 17px 'Mulish';
+    color: #7D7987;
+    margin-bottom: 33px;
+}
+
+.block-guides p:hover {
+    text-decoration: underline;
+}
+
+.img-guides {
+    background-image: url(./assets/Thousand-03.svg);
+    background-repeat: no-repeat;
+    width: 660px;
+    height: 535px;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F9FB;
+    padding: 100px;
+    margin: auto;
+    font: 300 18px 'Mulish';
+    line-height: 30px;
+    color: #848484;
+}
+
+footer :hover {
+    text-decoration: underline;
 }
