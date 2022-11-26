@@ -306,9 +306,7 @@ header nav div:not(:last-child) {
 
 footer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between;    
     background-color: #F9F9FB;
     padding: 100px;
     margin: auto;
@@ -319,4 +317,10 @@ footer {
 
 footer :hover {
     text-decoration: underline;
+}
+
+.destinations, .shop, .interests {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
 }
