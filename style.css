@@ -306,12 +306,11 @@ header nav div:not(:last-child) {
 
 footer {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
     background-color: #F9F9FB;
     padding: 100px;
     margin: auto;
     font: 300 18px 'Mulish';
-    line-height: 30px;
     color: #848484;
 }
 
@@ -319,8 +318,13 @@ footer :hover {
     text-decoration: underline;
 }
 
-.destinations, .shop, .interests {
+.info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
+}
+
+.info h3 {
+    font: 700 19px 'Mulish';
+    color: #000000;
 }
